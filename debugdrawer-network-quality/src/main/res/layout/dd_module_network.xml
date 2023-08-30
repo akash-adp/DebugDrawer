@@ -36,7 +36,7 @@
             android:minHeight="26dp"
             />
 
-        <androidx.core.widget.Space/>
+        <Space/>
 
         <!-- Delay -->
         <TextView
