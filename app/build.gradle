@@ -45,6 +45,7 @@ dependencies {
     implementation "com.github.pedrovgs:lynx:$rootProject.ext.lynxVersion"
     debugImplementation "com.readystatesoftware.chuck:library:$rootProject.ext.chukVersion"
     releaseImplementation "com.readystatesoftware.chuck:library-no-op:$rootProject.ext.chukVersion"
+    implementation 'androidx.multidex:multidex:2.0.1'
 
     /*
     debugImplementation 'io.palaima.debugdrawer:debugdrawer:0.7.3'
@@ -101,5 +102,4 @@ dependencies {
     implementation project(':debugdrawer-network-quality')
 
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$rootProject.ext.leakCanaryVersion"
-    releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:$rootProject.ext.leakCanaryVersion"
 }
